@@ -14,7 +14,7 @@ an AMI (Amazon Machine Image) by using its ID, different for each region.
 
 Assuming that you have an AWS (Amazon Web Services) account, locate
 *Percona Monitoring and Management Server* in `AWS Marketplace
-<https://aws.amazon.com/marketplace>`_.
+<https://aws.amazon.com/marketplace/pp/B077J7FYGX>`_.
 
 In the |gui.pricing-information| section, select your region and choose an
 instance type in the table that shows the pricing for the software and
@@ -34,6 +34,12 @@ to make your instance ready. For more control, use the ``Manual Launch`` option.
 .. figure:: .res/graphics/png/aws-marketplace.pmm.launch-on-ec2.png
 
    Percona Monitoring and Management is now available from AWS Marketplace
+
+|chapter.toc|
+
+.. contents::
+   :local:
+   :depth: 1
 	    
 .. _run-server-ami.pmm-instance.1-click-launch-option.setting-up:
 

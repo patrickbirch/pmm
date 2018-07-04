@@ -12,6 +12,12 @@ distributed over different hosts. In this case, you need to install the
 |abbr.pmm| client package on each database host that you want to monitor. In
 this scenario, the |abbr.pmm| server is set up on a dedicated monitoring host.
 
+|chapter.toc|
+
+.. contents::
+   :local:
+   :depth: 1
+
 .. _deploy-pmm.server.installing:
 
 Installing |pmm-server|

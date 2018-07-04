@@ -8,6 +8,7 @@
 .. toctree::
    :maxdepth: 2
 
+   1.12.0: June 27, 2018 <release.1-12-0> 
    1.11.0: May 23, 2018 <release.1-11-0> 
    1.10.0: April 20, 2018 <release.1-10-0> 
    1.9.0: April 4, 2018 <release.1-9-0>

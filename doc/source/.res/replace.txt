@@ -19,6 +19,7 @@
 .. |certificate.crt| replace:: :file:`certificate.crt`
 .. |certificate.key| replace:: :file:`certificate.key`
 .. |cluster-monitor| replace:: *clusterMonitor*
+.. |mysql-slow.log|  replace:: :file:`mysql-slow.log`
 .. |consul| replace:: Consul
 .. |cpu-credit-usage| replace:: *CPU Credit Usage*			 
 .. |cpu-usage| replace:: *CPU Usage*
@@ -119,6 +120,7 @@
 .. |relay-log| replace:: :file:`relay log`
 .. |rocksdb| replace:: RocksDB
 .. |section.toc| replace:: In this section
+.. |chapter.toc| replace:: In this chapter
 .. |sed| replace:: :program:`sed`
 .. |server.crt| replace:: :file:`server.crt`
 .. |server.key| replace:: :file:`server.key`
@@ -175,6 +177,7 @@
 
 .. Graphical interface elements (gui)
 
+.. |gui.slow-logs-rotation| replace:: :guilabel:`Slow logs rotation`
 .. |gui.network| replace:: :guilabel:`Network`
 .. |gui.1-click-launch| replace:: :guilabel:`1-Click Launch`
 .. |gui.add-permissions| replace:: :guilabel:`Add permissions`
@@ -422,6 +425,8 @@
 .. |opt.y| replace:: :option:`-y`
 .. |opt.z.upper| replace:: :option:`-Z`
 .. |opt.z| replace:: :option:`-z`
+.. |opt.reload| replace:: :option:`RELOAD`
+.. |opt.super| replace:: :option:`SUPER`
 
 .. pmm-admin commands (pmm-admin)
 
@@ -445,10 +450,12 @@
 
 .. SQL commands (sql)
    
+.. |sql.set-global| replace:: :command:`SET GLOBAL`
 .. |sql.commit| replace:: :command:`COMMIT`
 .. |sql.delete| replace:: :command:`DELETE`
 .. |sql.explain| replace:: :command:`EXPLAIN`
 .. |sql.flush-hosts| replace:: :command:`FLUSH HOSTS`
+.. |sql.flush-slow-logs| replace:: :command:`FLUSH SLOW LOGS`
 .. |sql.insert| replace:: :command:`INSERT`
 .. |sql.replace| replace:: :command:`REPLACE`
 .. |sql.rollback| replace:: :command:`ROLLBACK`
@@ -462,20 +469,39 @@
 
 .. PMM Dashboards (dbd)
 
-.. |dbd.summary| replace:: *Summary*
 .. |dbd.advanced-data-exploration| replace:: *Advanced Data Exploration*
 .. |dbd.amazon-rds-aurora-mysql-metrics| replace:: *Amazon RDS / Aurora MySQL Metrics*
+.. |dbd.cross-server-graphs| replace:: *Cross Server Graphs*
 .. |dbd.home| replace:: *Home*
 .. |dbd.mysql-amazon-aurora-metrics| replace:: *MySQL Amazon Aurora Metrics*
 .. |dbd.mysql-amazon-aurora| replace:: *MySQL Amazon Aurora*
+.. |dbd.mysql-command-handler-counters-compare| replace:: *MySQL Command/Handler Counters Compare*
+.. |dbd.mysql-innodb-compression| replace:: *MySQL InnoDB Compression*
 .. |dbd.mysql-innodb-metrics-advanced| replace:: *MySQL InnoDB Metrics Advanced*
 .. |dbd.mysql-innodb-metrics| replace:: *MySQL InnoDB Metrics*
 .. |dbd.mysql-myrocks-metrics| replace:: *MySQL MyRocks Metrics*
 .. |dbd.mysql-overview| replace:: *MySQL Overview*
 .. |dbd.prometheus-exporter-status| replace:: *Prometheus Exporter Status*
 .. |dbd.prometheus-exporters-overview| replace:: *Prometheus Exporters Overview*
+.. |dbd.prometheus| replace:: *Prometheus*
 .. |dbd.pxc-galera-cluster-overview| replace:: *PXC/Galera Cluster Overview*
 .. |dbd.pxc-galera-graphs| replace:: *PXC/Galera Graphs*
+.. |dbd.summary| replace:: *Summary*
 .. |dbd.system-overview| replace:: *System Overview*
-.. |dbd.cross-server-graphs| replace:: *Cross Server Graphs*
-.. |dbd.prometheus| replace:: *Prometheus*
+
+.. * Text labels
+
+.. Special headings (h)
+
+.. |h.bug-fix-releases| replace:: --- Bug fix releases ---
+.. |h.issues| replace:: --- Issues in this release ---
+.. |h.new-features-and-improvements| replace:: New features and improvements
+.. |h.bug-fixes| replace:: Bug fixes
+.. |h.improvements| replace:: Improvements
+.. |h.new-features| replace:: New Features
+
+.. Status labels (status)
+
+.. |status.fixed| replace:: Fixed
+.. |status.improved| replace:: Improved
+.. |status.new| replace:: New

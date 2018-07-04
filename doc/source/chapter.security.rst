@@ -1,8 +1,7 @@
 .. _pmm.security:
 
-================================================================================
 Security Features in |pmm.name|
-================================================================================
+********************************************************************************
 
 You can protect |pmm| from unauthorized access using the following security
 features:
@@ -10,6 +9,12 @@ features:
 - SSL encryption secures traffic between |pmm-client| and |pmm-server|
 - HTTP password protection adds authentication when accessing the |pmm-server|
   web interface
+
+|chapter.toc|
+
+.. contents::
+   :local:
+   :depth: 2
 
 
 Enabling SSL Encryption

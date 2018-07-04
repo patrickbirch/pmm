@@ -1,8 +1,7 @@
 .. _pmm/deploying/server/virtual-appliance:
 
-================================================================================
 PMM Server as a Virtual Appliance
-================================================================================
+********************************************************************************
 
 Percona provides a *virtual appliance* for running |pmm-server| in a virtual
 machine.  It is distributed as an *Open Virtual Appliance* (OVA) package, which
@@ -15,6 +14,12 @@ platforms, including:
 * `VirtualBox`_
 * `XenServer`_
 * `Microsoft System Center Virtual Machine Manager`_
+
+|chapter.toc|
+
+.. contents::
+   :local:
+   :depth: 1
 
 .. _pmm/deploying/server/virtual-appliance.supported-platform.virtual-appliance:
 

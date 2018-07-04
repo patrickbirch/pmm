@@ -9,6 +9,10 @@ The |pmm-add-instance| is now a preferred method of adding an |amazon-rds| DB
 instance to |pmm|. This method supports |amazon-rds| DB instances that use
 |amazon-aurora|, |mysql|, or |mariadb| engines.
 
+.. contents::
+   :local:
+   :depth: 1
+
 .. _figure.pmm.amazon-rds.pmm-server.add-instance.access-key-id:
 
 .. figure:: .res/graphics/png/pmm.metrics-monitor.add-instance.png

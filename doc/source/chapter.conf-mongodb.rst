@@ -15,6 +15,10 @@ accordingly. Run the |pmm-admin.add| command to use these monitoring services
 
 |qan| supports |mongodb| version 3.2 or higher.
 
+.. contents::
+   :local:
+   :depth: 1
+
 .. _pmm/qan/mongodb/conf/essential-permission.setting-up:
 
 Setting Up the Essential Permissions

@@ -20,6 +20,10 @@ impact.
 variants. For older |mysql| variants, which have neither sampling, nor
 |performance-schema|, configure logging only slow queries.
 
+.. contents::
+   :local:
+   :depth: 1
+
 You can add configuration examples provided in this guide to :file:`my.cnf` and
 restart the server or change variables dynamically using the following syntax:
 

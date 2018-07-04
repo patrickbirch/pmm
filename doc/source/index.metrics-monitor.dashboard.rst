@@ -13,14 +13,14 @@ General Dashboards
 .. toctree::
    :maxdepth: 1
 
-   section.dashboard.home
-   section.dashboard.pmm-system-summary
-   section.dashboard.advanced-data-exploration
-   section.dashboard.cross-server-graphs
-   section.dashboard.cpu-utilization-details-cores
-   section.dashboard.disk-space
-   section.dashboard.summary
-   section.dashboard.trends
+   dashboard.home
+   dashboard.pmm-system-summary
+   dashboard.advanced-data-exploration
+   dashboard.cross-server-graphs
+   dashboard.cpu-utilization-details-cores
+   dashboard.disk-space
+   dashboard.summary
+   dashboard.trends
 
 .. _pmm.dashboard.prometheus.list:
 
@@ -31,7 +31,7 @@ General Dashboards
    :glob:
    :maxdepth: 1
 
-   section.dashboard.prometheus*
+   dashboard.prometheus*
 
 .. _pmm.dashboard.mysql.list:
 
@@ -42,7 +42,7 @@ General Dashboards
    :glob:
    :maxdepth: 1
 
-   section.dashboard.mysql-*
+   dashboard.mysql-*
 
 .. _pmm.dashboard.mongodb.list:
 
@@ -53,7 +53,7 @@ General Dashboards
    :glob:
    :maxdepth: 1
 
-   section.dashboard.mongodb-*
+   dashboard.mongodb-*
 
 HA Dashboards
 ================================================================================
@@ -61,6 +61,6 @@ HA Dashboards
 .. toctree::
    :maxdepth: 1
 
-   section.dashboard.pxc-galera-cluster-overview
+   dashboard.pxc-galera-cluster-overview
 
 .. include:: .res/replace.txt
